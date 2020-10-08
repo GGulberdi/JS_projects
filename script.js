@@ -20,3 +20,10 @@ console.log(`My name is ${myName}. I am ${myAge} years old in human years which 
 
 
 alert(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears }years in dog years.`);
+
+var tortoise_age = prompt("What is your tortoise age");
+var human_age;
+human_age = tortoise_age * 10 + 2; 
+ 
+ alert(`When tortoise ${tortoise_age} age, human ${human_age} years old.`);
+ //human age 10 * 10 + 2
